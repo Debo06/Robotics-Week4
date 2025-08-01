@@ -1,0 +1,10 @@
+## Error Table
+
+| ID | Error Description                          | Root Cause                            | Fix Commit SHA | Impact                             |
+|----|----------------------------------------------|----------------------------------------|----------------|-------------------------------------|
+| 1  | File load error not visible                  | Exception message not printed          | `<SHA-1>`      | Easier debugging of file issues     |
+| 2  | Crashes if Passenger column missing/blank    | No column check, no null/empty filter  | `<SHA-2>`      | Prevents crash on invalid data      |
+| 3  | Fails on missing fare values                 | No `NaN` or negative fare handling     | `<SHA-3>`      | Removes invalid fare rows           |
+| 4  | Invalid airport codes not filtered           | No validation against known codes      | `<SHA-4>`      | Prevents corrupt routes             |
+| 5  | Incorrect duplicate check                    | Dedupe used Passenger, not PNR         | `<SHA-5>`      | Ensures one record per booking      |
+
