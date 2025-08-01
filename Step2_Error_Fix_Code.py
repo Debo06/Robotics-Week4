@@ -12,8 +12,9 @@ def load_reservations(file_path):
     return df
 
 def process_reservations(df):
-    # TODO-FIX: Drops all rows without checking if Passenger column exists
-    df = df[df["Passenger"] != ""]
+    #fix 2
+   if "Passenger" in df.columns:
+    df = df[df["Passenger"].notna() & (df["Passenger"].str.strip() != "")]
 
 
     # TODO-FIX: Missing handling for missing Fare values (NaN)
