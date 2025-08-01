@@ -7,7 +7,7 @@ def load_reservations(file_path):
     try:
         df = pd.read_csv(file_path)
     except Exception as e:
-        print("Could not load file")  # TODO-FIX: Doesn't log error details
+       print(f"Could not load file: {e}") #fix1
         return pd.DataFrame()
     return df
 
