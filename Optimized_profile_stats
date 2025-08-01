@@ -1,0 +1,26 @@
+         7993 function calls (7775 primitive calls) in 0.028 seconds
+
+   Ordered by: cumulative time
+   List reduced from 676 to 20 due to restriction <20>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        3    0.000    0.000    0.027    0.009 /home/sandbox/.local/lib/python3.11/site-packages/IPython/core/interactiveshell.py:3634(run_code)
+        3    0.000    0.000    0.027    0.009 {built-in method builtins.exec}
+      5/4    0.000    0.000    0.016    0.004 /home/sandbox/.local/lib/python3.11/site-packages/pandas/util/_decorators.py:323(wrapper)
+        1    0.000    0.000    0.016    0.016 /tmp/ipykernel_12/113726930.py:1(<module>)
+        1    0.000    0.000    0.016    0.016 /tmp/ipykernel_12/113726930.py:37(process_reservations)
+        1    0.000    0.000    0.011    0.011 /tmp/ipykernel_12/113726930.py:29(load_reservations)
+        1    0.000    0.000    0.011    0.011 /home/sandbox/.local/lib/python3.11/site-packages/pandas/util/_decorators.py:170(wrapper)
+        1    0.000    0.000    0.011    0.011 /home/sandbox/.local/lib/python3.11/site-packages/pandas/io/parsers/readers.py:854(read_csv)
+        1    0.000    0.000    0.011    0.011 /home/sandbox/.local/lib/python3.11/site-packages/pandas/io/parsers/readers.py:571(_read)
+    21/18    0.000    0.000    0.009    0.000 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/series.py:342(__init__)
+        1    0.000    0.000    0.008    0.008 /home/sandbox/.local/lib/python3.11/site-packages/pandas/io/parsers/readers.py:1762(read)
+        9    0.000    0.000    0.007    0.001 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/frame.py:3758(__getitem__)
+        5    0.000    0.000    0.006    0.001 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/frame.py:609(__init__)
+        1    0.000    0.000    0.006    0.006 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/internals/construction.py:423(dict_to_mgr)
+        2    0.000    0.000    0.004    0.002 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/series.py:5287(fillna)
+        4    0.000    0.000    0.004    0.001 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/generic.py:4263(get)
+        2    0.000    0.000    0.004    0.002 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/generic.py:6674(fillna)
+       27    0.000    0.000    0.003    0.000 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/indexes/base.py:7277(ensure_index)
+        5    0.002    0.000    0.003    0.001 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/frame.py:4274(_get_item_cache)
+        4    0.000    0.000    0.003    0.001 /home/sandbox/.local/lib/python3.11/site-packages/pandas/core/indexes/base.py:708(_with_infer)
